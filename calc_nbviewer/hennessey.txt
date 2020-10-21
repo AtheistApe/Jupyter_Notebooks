@@ -1,0 +1,8 @@
+<div >
+    <img src="images/hennessey.svg" align = "left" height = 13% width = 13% />
+       <p>
+            <p> $~$ </p>
+    <h1>Calculus with a Computer</h1>
+    An introduction to Calculus with Python </p>
+       
+</div>

@@ -1,0 +1,4 @@
+s/ten thousand men/one woman/
+s/[tT]hey were/she was/g
+s/^she/She/
+s/them/her/g

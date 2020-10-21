@@ -1,0 +1,578 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Problem Set I &#8212; LMTH 2040 Calculus: Spring 2018 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: ''
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Class II" href="03-class2goals.html" />
+    <link rel="prev" title="LMTH 2040: Multidisciplinary Calculus" href="01-syllabus.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput,
+div.nbinput div.prompt,
+div.nbinput div.input_area,
+div.nbinput div[class*=highlight],
+div.nbinput div[class*=highlight] pre,
+div.nboutput,
+div.nbinput div.prompt,
+div.nbinput div.output_area,
+div.nboutput div[class*=highlight],
+div.nboutput div[class*=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput div[class*=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput,
+div.nboutput {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+}
+@media (max-width: 540px) {
+    div.nbinput,
+    div.nboutput {
+        flex-direction: column;
+    }
+}
+
+/* input container */
+div.nbinput {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput div.prompt pre {
+    color: #303F9F;
+}
+
+/* output prompt */
+div.nboutput div.prompt pre {
+    color: #D84315;
+}
+
+/* all prompts */
+div.nbinput div.prompt,
+div.nboutput div.prompt {
+    min-width: 8ex;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
+    text-align: right;
+    flex: 0;
+}
+@media (max-width: 540px) {
+    div.nbinput div.prompt,
+    div.nboutput div.prompt {
+        text-align: left;
+        padding: 0.4em;
+    }
+    div.nboutput div.prompt.empty {
+        padding: 0;
+    }
+}
+
+/* disable scrollbars on prompts */
+div.nbinput div.prompt pre,
+div.nboutput div.prompt pre {
+    overflow: hidden;
+}
+
+/* input/output area */
+div.nbinput div.input_area,
+div.nboutput div.output_area {
+    padding: 0.4em;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+@media (max-width: 540px) {
+    div.nbinput div.input_area,
+    div.nboutput div.output_area {
+        width: 100%;
+    }
+}
+
+/* input area */
+div.nbinput div.input_area {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    background: #f7f7f7;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.pngmath center alignment in output cells */
+div.nboutput div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput div.output_area.stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-default-inverse-fg { color: #FFFFFF; }
+.ansi-default-inverse-bg { background-color: #000000; }
+
+.ansi-bold { font-weight: bold; }
+.ansi-underline { text-decoration: underline; }
+</style>
+<div class="section" id="Problem-Set-I">
+<h1>Problem Set I<a class="headerlink" href="#Problem-Set-I" title="Permalink to this headline">¶</a></h1>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none"><div class="highlight"><pre>
+<span></span>In [1]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="o">%%</span><span class="k">HTML</span>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HktA7HH5NBc&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HktA7HH5NBc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+</div>
+<p><strong>Mathematical Goals</strong>:</p>
+<ul class="simple">
+<li>Solve problems related to areas</li>
+<li>Understand Base number notation</li>
+<li>Perform basic operations on numbers including root extraction</li>
+<li>Use Pythagorean Theorem to find distances</li>
+<li>Solve quadratic equations</li>
+<li>Investigate partial sums of series</li>
+</ul>
+<p>The problems below come from the marvelous text <em>The Historical
+Development of Calculus</em> by C.H. Edwards. You are to submit solutions
+with your partners, and discuss the problems openly on our Piazza board.
+The suggested readings may help you with the problems.</p>
+<div class="section" id="Guidelines-for-writing-Solutions">
+<h2>Guidelines for writing Solutions<a class="headerlink" href="#Guidelines-for-writing-Solutions" title="Permalink to this headline">¶</a></h2>
+<p>We will focus on four areas to determine the quality of solutions. First
+and most important is that you are writing your solutions to a reader,
+and you should be considerate of using devices that help the reader
+understand your solutions. The four components follow:</p>
+<ul class="simple">
+<li><strong>Clearly State the Problem in your own words.</strong> You should be able
+to clearly and concisely explain the problem in your own everyday
+language. Aim for simplicity and clarity; as if you were explaining
+the situation to a random person on the sidewalk.</li>
+<li><strong>Describe the approach to the solution.</strong> Again, briefly and
+cogently describe how you solve the problem in everyday language. Use
+technical vocabulary only when necessary, and again your aim is
+clarity and concision.</li>
+<li><strong>Show solution method using multiple representations: words, tables,
+graphs/pictures, formulas, numbers.</strong> These are devices to help you
+solve problems <em>and</em> to help you communicate your solutions to
+others. Visualizations are powerful tools, use them regularly.</li>
+<li><strong>Summarize and discuss: Look Back</strong>. Clearly state your solution. Is
+this the only possibility? What could have been done differently or
+better to solve the given problem.</li>
+</ul>
+<p><strong>Suggested Reading</strong>:</p>
+<ul class="simple">
+<li>Chapter 1: <em>The Historical Development of Calculus</em>, C.H.Edwards</li>
+<li>Chapter 1: <em>The Origins of Calculus</em>, David Perkins</li>
+<li><em>History and Origins of the Calculus</em>, G.W. Leibniz</li>
+</ul>
+</div>
+<div class="section" id="Problem-I">
+<h2>Problem I<a class="headerlink" href="#Problem-I" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="" src="_images/p1.png" />
+</div>
+<p>Use the images above to explain the formulas for the areas:</p>
+<ul class="simple">
+<li>of triangles <span class="math">\(A = \frac{1}{2}bh\)</span></li>
+<li>of parallelograms <span class="math">\(A = bh\)</span></li>
+<li>of trapezoids <span class="math">\(A = \frac{1}{2}(b_1 + b_2)h\)</span></li>
+</ul>
+</div>
+<div class="section" id="Problem-II">
+<h2>Problem II<a class="headerlink" href="#Problem-II" title="Permalink to this headline">¶</a></h2>
+<ol class="loweralpha simple">
+<li>In one of the Rhind papyrus problems the area of a cirle is
+calculated by squaring 8/9 of its diameter. Compare this method with
+the area formula <span class="math">\(A = \pi r^2\)</span> to obtain the Egyptian
+approximation of <span class="math">\(\pi = 3.16\)</span>.</li>
+<li>This approximation to <span class="math">\(\pi\)</span> may have been found by trisecting
+each side of a square circumscribed about a circle of diameter
+<span class="math">\(d\)</span>, and cut off its 4 corners. Show that the area here would
+be:</li>
+</ol>
+<div class="math">
+\[A = \frac{7}{9}d^2 = \frac{63}{81}d^2 \approx \frac{64}{81}d^2 = (\frac{8}{9}d)^2\]</div>
+<div class="figure">
+<img alt="" src="_images/p2.png" />
+</div>
+</div>
+<div class="section" id="Problem-III">
+<h2>Problem III<a class="headerlink" href="#Problem-III" title="Permalink to this headline">¶</a></h2>
+<p>Four copies of a right triangle with legs <span class="math">\(a\)</span> and <span class="math">\(b\)</span> and
+hypotenuse <span class="math">\(c\)</span> together with a square of edge <span class="math">\(c\)</span>, are
+assembled as in Figure 3 to form a square of edge <span class="math">\(a + b\)</span>. Explain
+why the assembled figure <em>is</em> a squre, and derive the Pythagorean
+relation by computing its area in two different ways.</p>
+<div class="figure">
+<img alt="" src="_images/p3.png" />
+</div>
+</div>
+<div class="section" id="Problem-IV">
+<h2>Problem IV<a class="headerlink" href="#Problem-IV" title="Permalink to this headline">¶</a></h2>
+<p>The Babylonians generally used <span class="math">\(3r^2\)</span> for the area of a circle of
+radius <span class="math">\(r\)</span>, corresponding to the poor approximation
+<span class="math">\(\pi \approx 3\)</span>. Show that this approxiamation could have been
+obtained by averaging the areas of the iscribed and circumscribed
+squares shown below.</p>
+<div class="figure">
+<img alt="" src="_images/p4.png" />
+</div>
+</div>
+<div class="section" id="Problem-V">
+<h2>Problem V<a class="headerlink" href="#Problem-V" title="Permalink to this headline">¶</a></h2>
+<p>Archimedes took a similar approach to approximating <span class="math">\(\pi\)</span>. He
+began by inscribing and circumscribing a circle with regular hexagons,
+and successively doubled the sides in order to, calculuating their
+perimeters to find upper and lower bounds for <span class="math">\(\pi\)</span>. Beginning
+with a circle of radius 1 and compute the perimeter for the following
+shapes:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="76%" />
+<col width="24%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Polygon</th>
+<th class="head">Area</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Inscribed 6 sided</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Circumscribed 6 sided</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>In 12 Sided</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Circum 12 Sided</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="Problem-VI">
+<h2>Problem VI<a class="headerlink" href="#Problem-VI" title="Permalink to this headline">¶</a></h2>
+<p>The Babylonians approached square root approximation in a similar
+iterative methodology like Archimedes use of the method of exhaustion.
+To start, suppose we have a guess that we think is close to
+<span class="math">\(\sqrt{2}\)</span></p>
+<div class="math">
+\[x_1 \approx \sqrt{2} \quad \rightarrow \quad x_1 \times x_1 \approx 2 \quad \rightarrow \quad x_1 \approx \frac{2}{x_1}\]</div>
+<p>Either <span class="math">\(x_1\)</span> is a better guess or <span class="math">\(\frac{2}{x}\)</span>, but even
+better still would be the average of the two:</p>
+<div class="math">
+\[x_2 = \frac{1}{2} \big(x_1 + \frac{2}{x_1}\big)\]</div>
+<p>If we continue in this manner we will get better and better
+approximations:</p>
+<div class="math">
+\[x_3 = \frac{1}{2} \big(x_2 + \frac{2}{x_2}\big)\]</div>
+<div class="math">
+\[x_4 = \frac{1}{2} \big(x_3 + \frac{2}{x_3}\big)\]</div>
+<div class="math">
+\[x_5 = \frac{1}{2} \big(x_4 + \frac{2}{x_4}\big)\]</div>
+<div class="math">
+\[\vdots\]</div>
+<div class="math">
+\[x_{n+1} = \frac{1}{2} \big(x_n + \frac{2}{x_n}\big)\]</div>
+<p>Follow the Babylonians method to approximate <span class="math">\(\sqrt{2}\)</span> through
+<span class="math">\(x_5\)</span>. Repeat for <span class="math">\(\sqrt{3}\)</span>.</p>
+</div>
+<div class="section" id="Problem-VII">
+<h2>Problem VII<a class="headerlink" href="#Problem-VII" title="Permalink to this headline">¶</a></h2>
+<p>The Arabic mathematician Al - Khowarizmi’s introduced the base 10
+numeration system to popular audiences in his writing. Here, collections
+of groups of 10 items were combined with positional notation and zero to
+make our familiar numeration system. For example, we would write 13,285
+as</p>
+<div class="math">
+\[13285 = 1*10^4 + 3*10^3 + 2*10^2 + 8*10^1 + 5*10^0\]</div>
+<p>Consider groupings different than base 10 for the following questions:</p>
+<ol class="arabic">
+<li><p class="first">How many numerals are required for a base 5 numeration system?</p>
+</li>
+<li><p class="first">Can you express the base 10 numbers 360, 78, 35, and 23 in base 5
+notation? (Ex 10 base 10 = <span class="math">\(20_5\)</span>(base 5))</p>
+</li>
+<li><p class="first">0.3012 stands for</p>
+<div class="math">
+\[3/10 + 0/10^2 + 1/10^3 + 2/10^4\]</div>
+<p>. Write the same number as a decimal in base 5.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="Problem-VIII">
+<h2>Problem VIII<a class="headerlink" href="#Problem-VIII" title="Permalink to this headline">¶</a></h2>
+<p>Al - Khowarizimi also discussed an approach to solving quadratic
+equations such as <span class="math">\(x^2 + 10x = 39\)</span>. According to Edwards, his
+solution was</p>
+<ul class="simple">
+<li>Take half the number of roots, that is, five, and multply this by
+itself to obtain twenty-five.</li>
+<li>Add this to the thiry-nine, giving sixty-four.</li>
+<li>Take the square root, or eight, and subtract from it half the number
+of roots (five).</li>
+<li>The result, 3, is the required root.</li>
+</ul>
+<div class="figure">
+<img alt="" src="_images/p5.png" />
+</div>
+<p>Solve the equation <span class="math">\(x^2 + 8x = 65\)</span> following a similar
+construction to that above.</p>
+</div>
+<div class="section" id="Problem-IX">
+<h2>Problem IX<a class="headerlink" href="#Problem-IX" title="Permalink to this headline">¶</a></h2>
+<p>The images below help to understand the value of expressions like:</p>
+<div class="math">
+\[1 + 2 + 3 + 4 + ... + (n-1) + n =\]</div>
+<div class="figure">
+<img alt="" src="_images/p6.png" />
+</div>
+<ol class="arabic simple">
+<li>Find the sum when <span class="math">\(n = 5\)</span></li>
+<li>Find the sum when <span class="math">\(n = 10\)</span></li>
+<li>Is there a way to use the image below to understand the sum when
+<span class="math">\(n = 100\)</span>? <img alt="image0" src="_images/p7.png" /></li>
+</ol>
+</div>
+<div class="section" id="Problem-X">
+<h2>Problem X<a class="headerlink" href="#Problem-X" title="Permalink to this headline">¶</a></h2>
+<p>In the seventeenth century, Leibniz introduced modern summation
+notation. The previous problems sum would be written as</p>
+<div class="math">
+\[\sum_{i = 1}^n i\]</div>
+<p>which indicated we are adding (<span class="math">\(\sum\)</span>), starting with an index of
+1 (<span class="math">\(i = 1\)</span>), and the things we are adding are simply the indices
+(<span class="math">\(i\)</span>). Sometimes, we recognize patterns in the partial sums of
+terms as a way to understand the general approach. Consider the
+summation</p>
+<div class="math">
+\[\sum_{i = 1}^n i^3\]</div>
+<p>Fill in the table with the following partial sums. Do you see a pattern?
+Describe it.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="24%" />
+<col width="76%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><span class="math">\(n\)</span></th>
+<th class="head">Partial Sum <span class="math">\(\sum_{i = 1}^n i^3\)</span></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>10</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>j</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">LMTH 2040 Calculus: Spring 2018</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="00-overview.html">Multidisciplinary Calculus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01-syllabus.html">LMTH 2040: Multidisciplinary Calculus</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Problem Set I</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#Guidelines-for-writing-Solutions">Guidelines for writing Solutions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-I">Problem I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-II">Problem II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-III">Problem III</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-IV">Problem IV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-V">Problem V</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-VI">Problem VI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-VII">Problem VII</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-VIII">Problem VIII</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-IX">Problem IX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Problem-X">Problem X</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03-class2goals.html">Class II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-Lab_I.html">Introducing Python: Lab I</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-RiemannSums.html">Riemann Sums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-The-Definite-Integral.html">Using the Definition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-Integrals-with-Python.html">Integration with Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-in-class-integrals.html">Defining Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-in-class-integrals.html#Problem-3b">Problem 3b</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0.9_calc_Gini_Index.html">Wealth Distribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0.10_calc_consumer_surplus.html">Supply and Demand: Consumer Surplus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-Exam-I.html">Examination Paper I</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-Integral-Drill.html">Integration Drill: In Class 2.14</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-integrator_function.html">Writing a program in Python</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="01-syllabus.html" title="previous chapter">LMTH 2040: Multidisciplinary Calculus</a></li>
+      <li>Next: <a href="03-class2goals.html" title="next chapter">Class II</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, J.F. Koehler.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/02-problemsetI.ipynb"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

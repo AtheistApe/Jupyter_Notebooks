@@ -1,0 +1,1452 @@
+[NbGraderApp | INFO] New config file saved to 'nbgrader_config.py'
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=47ce066563158784dd1307451ebd766932f49b7cede5b98a
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=47ce066563158784dd1307451ebd766932f49b7cede5b98a
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook CSM/tempid/source/header.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119124724 (::1) 73.40ms referer=http://localhost:8888/notebooks/CSM/tempid/source/header.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.33ms referer=http://localhost:8888/notebooks/CSM/tempid/source/header.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119124724 (::1) 4.00ms referer=http://localhost:8888/notebooks/CSM/tempid/source/header.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119124724 (::1) 42.26ms referer=http://localhost:8888/notebooks/CSM/tempid/source/header.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/biblio.bib (::1): No such file or directory: CSM/tempid/source/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/biblio.bib (::1) 5.18ms referer=http://localhost:8888/notebooks/CSM/tempid/source/header.ipynb
+[NotebookApp | INFO] Kernel started: 4780c37c-6406-468b-a063-55beb104b8ea
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 4780c37c-6406-468b-a063-55beb104b8ea
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4780c37c-6406-468b-a063-55beb104b8ea
+[NotebookApp | WARNING] Notebook CSM/tempid/source/ps1/problem1.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119124724 (::1) 4.15ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/CSM/tempid/source/ps1/jupyter.png (::1) 2.65ms
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.02ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119124724 (::1) 3.27ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119124724 (::1) 3.24ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/ps1/biblio.bib (::1): No such file or directory: CSM/tempid/source/ps1/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/ps1/biblio.bib (::1) 3.40ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Kernel started: 22a405e3-52ff-4c94-a7d1-2c9f9b6d3785
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 22a405e3-52ff-4c94-a7d1-2c9f9b6d3785
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 22a405e3-52ff-4c94-a7d1-2c9f9b6d3785
+[NotebookApp | INFO] Saving file at /CSM/tempid/source/header.ipynb
+[NotebookApp | INFO] Saving file at /CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Saving file at /CSM/tempid/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Validating '/Users/gary/Documents/Jupyter_Notebooks/CSM/tempid/source/ps1/problem1.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Starting buffering for 4780c37c-6406-468b-a063-55beb104b8ea:3FD357751EBF45CDBE801E6FE67B99E6
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Uncaught exception PUT /formgrader/api/assignment/ps2 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='PUT', uri='/formgrader/api/assignment/ps2', version='HTTP/1.1', remote_ip='::1', headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36', 'Cookie': '_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888="2|1:0|10:1511124452|23:username-localhost-8888|44:OGVkNzEyMWUwNDBmNDk5ODk1OGI3NDk2YzQ4ODkyMjk=|c6b32ee0055e96935a0d3458ea3c7a0642ab4ba256e7af602bee7781381f6dab"', 'Content-Length': '87', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://localhost:8888', 'Host': 'localhost:8888', 'Accept-Language': 'en-US,en;q=0.9', 'Connection': 'keep-alive', 'X-Csrftoken': '2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577', 'Content-Type': 'application/json', 'Referer': 'http://localhost:8888/formgrader', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json, text/javascript, */*; q=0.01'})
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1234, in find_assignment
+        .filter(Assignment.name == name)\
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/sqlalchemy/orm/query.py", line 2820, in one
+        raise orm_exc.NoResultFound("No row was found for one()")
+    sqlalchemy.orm.exc.NoResultFound: No row was found for one()
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1258, in update_or_create_assignment
+        assignment = self.find_assignment(name)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1237, in find_assignment
+        raise MissingEntry("No such assignment: {}".format(name))
+    nbgrader.api.MissingEntry: No such assignment: ps2
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 1509, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 2897, in wrapper
+        return method(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/base.py", line 103, in wrapper
+        return f(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/apihandlers.py", line 127, in put
+        self.gradebook.update_or_create_assignment(assignment_id, **assignment)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1260, in update_or_create_assignment
+        assignment = self.add_assignment(name, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1208, in add_assignment
+        kwargs['duedate'] = utils.parse_utc(kwargs['duedate'])
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/utils.py", line 117, in parse_utc
+        ts = dateutil.parser.parse(ts)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 1182, in parse
+        return DEFAULTPARSER.parse(timestr, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 559, in parse
+        raise ValueError("Unknown string format")
+    ValueError: Unknown string format
+[NotebookApp | ERROR] {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36",
+      "Cookie": "_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888=\"2|1:0|10:1511124452|23:username-localhost-8888|44:OGVkNzEyMWUwNDBmNDk5ODk1OGI3NDk2YzQ4ODkyMjk=|c6b32ee0055e96935a0d3458ea3c7a0642ab4ba256e7af602bee7781381f6dab\"",
+      "Content-Length": "87",
+      "X-Requested-With": "XMLHttpRequest",
+      "Origin": "http://localhost:8888",
+      "Host": "localhost:8888",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Connection": "keep-alive",
+      "X-Csrftoken": "2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577",
+      "Content-Type": "application/json",
+      "Referer": "http://localhost:8888/formgrader",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "application/json, text/javascript, */*; q=0.01"
+    }
+[NotebookApp | ERROR] 500 PUT /formgrader/api/assignment/ps2 (::1) 298.91ms referer=http://localhost:8888/formgrader
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] No notebooks were matched by '/Users/gary/Documents/Jupyter_Notebooks/CSM/tempid/source/./ps2'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] 404 GET /formgrader/api/assignment/ps2 (::1) 7.21ms referer=http://localhost:8888/formgrader
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Starting buffering for 22a405e3-52ff-4c94-a7d1-2c9f9b6d3785:6A1F92DEF5AF49A28E7A67E5C78A09B5
+[NotebookApp | INFO] Kernel shutdown: 22a405e3-52ff-4c94-a7d1-2c9f9b6d3785
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 4780c37c-6406-468b-a063-55beb104b8ea
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=0328ae07f6194a07bedb2af9b5272fb8da7a9d705e21248c
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=0328ae07f6194a07bedb2af9b5272fb8da7a9d705e21248c
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Uncaught exception PUT /formgrader/api/assignment/ps2 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='PUT', uri='/formgrader/api/assignment/ps2', version='HTTP/1.1', remote_ip='::1', headers={'Cookie': '_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888="2|1:0|10:1511126099|23:username-localhost-8888|44:MzAyYWE2ZGUxZjUyNDI3M2I4NDRiZjJlZjk5ODQ1YTU=|dbc085c66d3adcd9bdcd55aaed36f5da4949542f671abb96bfe443f97d8f5afc"', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Length': '87', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36', 'Origin': 'http://localhost:8888', 'Referer': 'http://localhost:8888/formgrader', 'X-Requested-With': 'XMLHttpRequest', 'Host': 'localhost:8888', 'X-Csrftoken': '2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577', 'Accept-Language': 'en-US,en;q=0.9', 'Connection': 'keep-alive', 'Accept-Encoding': 'gzip, deflate, br', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1234, in find_assignment
+        .filter(Assignment.name == name)\
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/sqlalchemy/orm/query.py", line 2820, in one
+        raise orm_exc.NoResultFound("No row was found for one()")
+    sqlalchemy.orm.exc.NoResultFound: No row was found for one()
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1258, in update_or_create_assignment
+        assignment = self.find_assignment(name)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1237, in find_assignment
+        raise MissingEntry("No such assignment: {}".format(name))
+    nbgrader.api.MissingEntry: No such assignment: ps2
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 1509, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 2897, in wrapper
+        return method(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/base.py", line 103, in wrapper
+        return f(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/apihandlers.py", line 127, in put
+        self.gradebook.update_or_create_assignment(assignment_id, **assignment)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1260, in update_or_create_assignment
+        assignment = self.add_assignment(name, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1208, in add_assignment
+        kwargs['duedate'] = utils.parse_utc(kwargs['duedate'])
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/utils.py", line 117, in parse_utc
+        ts = dateutil.parser.parse(ts)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 1182, in parse
+        return DEFAULTPARSER.parse(timestr, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 559, in parse
+        raise ValueError("Unknown string format")
+    ValueError: Unknown string format
+[NotebookApp | ERROR] {
+      "Cookie": "_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888=\"2|1:0|10:1511126099|23:username-localhost-8888|44:MzAyYWE2ZGUxZjUyNDI3M2I4NDRiZjJlZjk5ODQ1YTU=|dbc085c66d3adcd9bdcd55aaed36f5da4949542f671abb96bfe443f97d8f5afc\"",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Length": "87",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Referer": "http://localhost:8888/formgrader",
+      "X-Requested-With": "XMLHttpRequest",
+      "Host": "localhost:8888",
+      "X-Csrftoken": "2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Connection": "keep-alive",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json"
+    }
+[NotebookApp | ERROR] 500 PUT /formgrader/api/assignment/ps2 (::1) 294.09ms referer=http://localhost:8888/formgrader
+[NotebookApp | ERROR] Uncaught exception PUT /formgrader/api/assignment/ps2 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='PUT', uri='/formgrader/api/assignment/ps2', version='HTTP/1.1', remote_ip='::1', headers={'Cookie': '_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888="2|1:0|10:1511126099|23:username-localhost-8888|44:MzAyYWE2ZGUxZjUyNDI3M2I4NDRiZjJlZjk5ODQ1YTU=|dbc085c66d3adcd9bdcd55aaed36f5da4949542f671abb96bfe443f97d8f5afc"', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Length': '87', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36', 'Origin': 'http://localhost:8888', 'Referer': 'http://localhost:8888/formgrader', 'X-Requested-With': 'XMLHttpRequest', 'Host': 'localhost:8888', 'X-Csrftoken': '2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577', 'Accept-Language': 'en-US,en;q=0.9', 'Connection': 'keep-alive', 'Accept-Encoding': 'gzip, deflate, br', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1234, in find_assignment
+        .filter(Assignment.name == name)\
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/sqlalchemy/orm/query.py", line 2820, in one
+        raise orm_exc.NoResultFound("No row was found for one()")
+    sqlalchemy.orm.exc.NoResultFound: No row was found for one()
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1258, in update_or_create_assignment
+        assignment = self.find_assignment(name)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1237, in find_assignment
+        raise MissingEntry("No such assignment: {}".format(name))
+    nbgrader.api.MissingEntry: No such assignment: ps2
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 1509, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 2897, in wrapper
+        return method(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/base.py", line 103, in wrapper
+        return f(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/apihandlers.py", line 127, in put
+        self.gradebook.update_or_create_assignment(assignment_id, **assignment)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1260, in update_or_create_assignment
+        assignment = self.add_assignment(name, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1208, in add_assignment
+        kwargs['duedate'] = utils.parse_utc(kwargs['duedate'])
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/utils.py", line 117, in parse_utc
+        ts = dateutil.parser.parse(ts)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 1182, in parse
+        return DEFAULTPARSER.parse(timestr, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 559, in parse
+        raise ValueError("Unknown string format")
+    ValueError: Unknown string format
+[NotebookApp | ERROR] {
+      "Cookie": "_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888=\"2|1:0|10:1511126099|23:username-localhost-8888|44:MzAyYWE2ZGUxZjUyNDI3M2I4NDRiZjJlZjk5ODQ1YTU=|dbc085c66d3adcd9bdcd55aaed36f5da4949542f671abb96bfe443f97d8f5afc\"",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Length": "87",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Referer": "http://localhost:8888/formgrader",
+      "X-Requested-With": "XMLHttpRequest",
+      "Host": "localhost:8888",
+      "X-Csrftoken": "2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Connection": "keep-alive",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json"
+    }
+[NotebookApp | ERROR] 500 PUT /formgrader/api/assignment/ps2 (::1) 6.81ms referer=http://localhost:8888/formgrader
+[NotebookApp | ERROR] Uncaught exception PUT /formgrader/api/assignment/ps2 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='PUT', uri='/formgrader/api/assignment/ps2', version='HTTP/1.1', remote_ip='::1', headers={'Cookie': '_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888="2|1:0|10:1511126099|23:username-localhost-8888|44:MzAyYWE2ZGUxZjUyNDI3M2I4NDRiZjJlZjk5ODQ1YTU=|dbc085c66d3adcd9bdcd55aaed36f5da4949542f671abb96bfe443f97d8f5afc"', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Length': '87', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36', 'Origin': 'http://localhost:8888', 'Referer': 'http://localhost:8888/formgrader', 'X-Requested-With': 'XMLHttpRequest', 'Host': 'localhost:8888', 'X-Csrftoken': '2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577', 'Accept-Language': 'en-US,en;q=0.9', 'Connection': 'keep-alive', 'Accept-Encoding': 'gzip, deflate, br', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1234, in find_assignment
+        .filter(Assignment.name == name)\
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/sqlalchemy/orm/query.py", line 2820, in one
+        raise orm_exc.NoResultFound("No row was found for one()")
+    sqlalchemy.orm.exc.NoResultFound: No row was found for one()
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1258, in update_or_create_assignment
+        assignment = self.find_assignment(name)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1237, in find_assignment
+        raise MissingEntry("No such assignment: {}".format(name))
+    nbgrader.api.MissingEntry: No such assignment: ps2
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 1509, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/web.py", line 2897, in wrapper
+        return method(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/base.py", line 103, in wrapper
+        return f(self, *args, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/formgrader/apihandlers.py", line 127, in put
+        self.gradebook.update_or_create_assignment(assignment_id, **assignment)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1260, in update_or_create_assignment
+        assignment = self.add_assignment(name, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/api.py", line 1208, in add_assignment
+        kwargs['duedate'] = utils.parse_utc(kwargs['duedate'])
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/utils.py", line 117, in parse_utc
+        ts = dateutil.parser.parse(ts)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 1182, in parse
+        return DEFAULTPARSER.parse(timestr, **kwargs)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/dateutil/parser.py", line 559, in parse
+        raise ValueError("Unknown string format")
+    ValueError: Unknown string format
+[NotebookApp | ERROR] {
+      "Cookie": "_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888=\"2|1:0|10:1511126099|23:username-localhost-8888|44:MzAyYWE2ZGUxZjUyNDI3M2I4NDRiZjJlZjk5ODQ1YTU=|dbc085c66d3adcd9bdcd55aaed36f5da4949542f671abb96bfe443f97d8f5afc\"",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Length": "87",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Referer": "http://localhost:8888/formgrader",
+      "X-Requested-With": "XMLHttpRequest",
+      "Host": "localhost:8888",
+      "X-Csrftoken": "2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Connection": "keep-alive",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json"
+    }
+[NotebookApp | ERROR] 500 PUT /formgrader/api/assignment/ps2 (::1) 5.57ms referer=http://localhost:8888/formgrader
+[NotebookApp | WARNING] 404 GET /tree/CSM/tempid/undefined (::1) 128.14ms referer=http://localhost:8888/
+[NotebookApp | WARNING] 404 GET /tree/CSM/tempid/undefined (::1) 2.41ms referer=http://localhost:8888/
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] No notebooks were matched by '/Users/gary/Documents/Jupyter_Notebooks/CSM/tempid/source/./ps2'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] 404 GET /formgrader/api/assignment/ps2 (::1) 6.48ms referer=http://localhost:8888/formgrader
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 65, in list_released_assignments
+        assignments = lister.start()
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook CSM/tempid/source/ps1/problem2.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119131431 (::1) 33.85ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 2.81ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119131431 (::1) 32.96ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119131431 (::1) 4.00ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/ps1/biblio.bib (::1): No such file or directory: CSM/tempid/source/ps1/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/ps1/biblio.bib (::1) 4.41ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | INFO] Kernel started: 4b581ab5-f51c-401c-9e7c-6c53e04e8ed8
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 4b581ab5-f51c-401c-9e7c-6c53e04e8ed8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4b581ab5-f51c-401c-9e7c-6c53e04e8ed8
+[NotebookApp | INFO] Starting buffering for 4b581ab5-f51c-401c-9e7c-6c53e04e8ed8:F6FBDBB78D8C47EB9351EDBA64085184
+[NotebookApp | WARNING] Notebook CSM/tempid/source/ps1/problem2.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119131431 (::1) 4.63ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.78ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119131431 (::1) 4.93ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119131431 (::1) 4.39ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/ps1/biblio.bib (::1): No such file or directory: CSM/tempid/source/ps1/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/tempid/source/ps1/biblio.bib (::1) 4.06ms referer=http://localhost:8888/notebooks/CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | INFO] Saving file at /CSM/tempid/source/ps1/problem2.ipynb
+[NotebookApp | INFO] Starting buffering for 4b581ab5-f51c-401c-9e7c-6c53e04e8ed8:BF866CCC8CC048B8855FBFD5D8CA6147
+[NotebookApp | INFO] Kernel shutdown: 4b581ab5-f51c-401c-9e7c-6c53e04e8ed8
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=a154b446b9e0bb1f819dcdc8944bdb9618ece4e016628001
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=a154b446b9e0bb1f819dcdc8944bdb9618ece4e016628001
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook CSM/Double Integrals in Polar Coordinates.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 48.33ms referer=http://localhost:8888/notebooks/CSM/Double%20Integrals%20in%20Polar%20Coordinates.ipynb
+[NotebookApp | INFO] Kernel started: 55d2692f-2ced-493a-800e-4db6049057e0
+[NotebookApp | INFO] 302 GET /notebooks/CSM/Screenshot%202016-05-04%2007.49.37.png (::1) 6.24ms
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 6.60ms referer=http://localhost:8888/notebooks/CSM/Double%20Integrals%20in%20Polar%20Coordinates.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 3.70ms referer=http://localhost:8888/notebooks/CSM/Double%20Integrals%20in%20Polar%20Coordinates.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 3.94ms referer=http://localhost:8888/notebooks/CSM/Double%20Integrals%20in%20Polar%20Coordinates.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1): No such file or directory: CSM/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1) 3.92ms referer=http://localhost:8888/notebooks/CSM/Double%20Integrals%20in%20Polar%20Coordinates.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 55d2692f-2ced-493a-800e-4db6049057e0
+[NotebookApp | INFO] Saving file at /CSM/Double Integrals in Polar Coordinates.ipynb
+[NotebookApp | INFO] Starting buffering for 55d2692f-2ced-493a-800e-4db6049057e0:406D12F53B9743BEA9BC630A84A5CF65
+[NotebookApp | INFO] Kernel shutdown: 55d2692f-2ced-493a-800e-4db6049057e0
+[NotebookApp | INFO] Kernel started: c9e18b11-2827-4a46-957f-b8960898b470
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 5.10ms referer=http://localhost:8888/notebooks/CSM/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.04ms referer=http://localhost:8888/notebooks/CSM/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 4.32ms referer=http://localhost:8888/notebooks/CSM/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 5.25ms referer=http://localhost:8888/notebooks/CSM/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1): No such file or directory: CSM/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1) 4.24ms referer=http://localhost:8888/notebooks/CSM/Untitled.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel c9e18b11-2827-4a46-957f-b8960898b470
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Untitled.ipynb
+[NotebookApp | INFO] Validating '/Users/gary/Documents/Jupyter_Notebooks/CSM/Untitled.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Saving file at /CSM/nbgrader_example.ipynb
+[NotebookApp | INFO] Starting buffering for c9e18b11-2827-4a46-957f-b8960898b470:1F60D42E273647E2A59DF2395E152092
+[NotebookApp | INFO] Kernel shutdown: c9e18b11-2827-4a46-957f-b8960898b470
+[NotebookApp | INFO] Kernel started: fa72742c-f35c-4ac1-abea-4a064bf3e696
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 51.27ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.27ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 3.14ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math253/biblio.bib (::1): No such file or directory: CSM/Math253/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math253/biblio.bib (::1) 3.31ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from fa72742c-f35c-4ac1-abea-4a064bf3e696
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel fa72742c-f35c-4ac1-abea-4a064bf3e696
+[NotebookApp | INFO] Starting buffering for fa72742c-f35c-4ac1-abea-4a064bf3e696:7EEBAA2B4AAB4468B0E07B7797ACF420
+[NotebookApp | INFO] Kernel shutdown: fa72742c-f35c-4ac1-abea-4a064bf3e696
+[NotebookApp | INFO] Kernel started: b2ce9cf9-09b3-40f2-b807-376bf0d7e6a8
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.30ms referer=http://localhost:8888/notebooks/CSM/Math253/Multiple%20integration.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.17ms referer=http://localhost:8888/notebooks/CSM/Math253/Multiple%20integration.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 5.18ms referer=http://localhost:8888/notebooks/CSM/Math253/Multiple%20integration.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 5.11ms referer=http://localhost:8888/notebooks/CSM/Math253/Multiple%20integration.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math253/biblio.bib (::1): No such file or directory: CSM/Math253/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math253/biblio.bib (::1) 4.55ms referer=http://localhost:8888/notebooks/CSM/Math253/Multiple%20integration.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 37.71ms referer=http://localhost:8888/notebooks/CSM/Math253/Multiple%20integration.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from b2ce9cf9-09b3-40f2-b807-376bf0d7e6a8
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b2ce9cf9-09b3-40f2-b807-376bf0d7e6a8
+[NotebookApp | INFO] Saving file at /CSM/Math253/Multiple integration.ipynb
+[NotebookApp | INFO] Starting buffering for b2ce9cf9-09b3-40f2-b807-376bf0d7e6a8:B06EC187BD1F4B1683EA6B96CC061144
+[NotebookApp | INFO] Kernel shutdown: b2ce9cf9-09b3-40f2-b807-376bf0d7e6a8
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.13ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | INFO] Kernel started: 7692ec5d-a339-49b3-933c-8515166ab8e0
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 2.74ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 8.31ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 2.99ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.13ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 7692ec5d-a339-49b3-933c-8515166ab8e0
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Starting buffering for 7692ec5d-a339-49b3-933c-8515166ab8e0:FAAC1438751948D4BA9DC9B83E6D5421
+[NotebookApp | INFO] Kernel shutdown: 7692ec5d-a339-49b3-933c-8515166ab8e0
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.80ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.79ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 3.94ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 2.76ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511131398924 (::1) 2.21ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511131398925 (::1) 3.90ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511131398926 (::1) 2.22ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | INFO] Kernel started: 88fd488c-5829-4b43-be89-9954ea371e9a
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 13.66ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 88fd488c-5829-4b43-be89-9954ea371e9a
+[NotebookApp | INFO] Saving file at /Julia/Numeric Integration.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511131398929 (::1) 2.71ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511131398930 (::1) 2.20ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Numeric Integration.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511131398932 (::1) 2.17ms referer=http://localhost:8888/notebooks/Julia/Numeric%20Integration.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Numeric Integration.ipynb
+[NotebookApp | INFO] Starting buffering for 88fd488c-5829-4b43-be89-9954ea371e9a:B999016FA8C44E4D98AADEABD9FD40FC
+[NotebookApp | INFO] Kernel shutdown: 88fd488c-5829-4b43-be89-9954ea371e9a
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.61ms referer=http://localhost:8888/notebooks/Julia/Stacked%20rings.ipynb
+[NotebookApp | INFO] Kernel started: 25b9c113-ee5f-4c77-acb2-8136269c5c54
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 6.07ms referer=http://localhost:8888/notebooks/Julia/Stacked%20rings.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 4.88ms referer=http://localhost:8888/notebooks/Julia/Stacked%20rings.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 4.72ms referer=http://localhost:8888/notebooks/Julia/Stacked%20rings.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.31ms referer=http://localhost:8888/notebooks/Julia/Stacked%20rings.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 25b9c113-ee5f-4c77-acb2-8136269c5c54
+[NotebookApp | INFO] Saving file at /Julia/Stacked rings.ipynb
+[NotebookApp | INFO] Starting buffering for 25b9c113-ee5f-4c77-acb2-8136269c5c54:F47CAFB216A847879C2DFE17DD81BDA9
+[NotebookApp | INFO] Kernel shutdown: 25b9c113-ee5f-4c77-acb2-8136269c5c54
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.68ms referer=http://localhost:8888/notebooks/Julia/Type%20and%20Multiple%20Dispatch%20Examples.ipynb
+[NotebookApp | INFO] Kernel started: 90e37c77-05eb-4116-a934-7e55b5bde0bc
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.85ms referer=http://localhost:8888/notebooks/Julia/Type%20and%20Multiple%20Dispatch%20Examples.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 4.82ms referer=http://localhost:8888/notebooks/Julia/Type%20and%20Multiple%20Dispatch%20Examples.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 3.22ms referer=http://localhost:8888/notebooks/Julia/Type%20and%20Multiple%20Dispatch%20Examples.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.26ms referer=http://localhost:8888/notebooks/Julia/Type%20and%20Multiple%20Dispatch%20Examples.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 90e37c77-05eb-4116-a934-7e55b5bde0bc
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Starting buffering for 90e37c77-05eb-4116-a934-7e55b5bde0bc:AAD453922D5540809F389162DD191520
+[NotebookApp | INFO] Kernel restarted: 90e37c77-05eb-4116-a934-7e55b5bde0bc
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 90e37c77-05eb-4116-a934-7e55b5bde0bc
+[NotebookApp | INFO] Restoring connection for 90e37c77-05eb-4116-a934-7e55b5bde0bc:AAD453922D5540809F389162DD191520
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Type and Multiple Dispatch Examples.ipynb
+[NotebookApp | INFO] Starting buffering for 90e37c77-05eb-4116-a934-7e55b5bde0bc:AAD453922D5540809F389162DD191520
+[NotebookApp | INFO] Kernel shutdown: 90e37c77-05eb-4116-a934-7e55b5bde0bc
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 43.66ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | INFO] Kernel started: 2a23966e-cff2-4a2c-90a7-7b59d999c83d
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 25.66ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 225.29ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 4.09ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 3.20ms referer=http://localhost:8888/notebooks/Julia/Multiple%20Integrals%20in%20Julia%20using%20HCubature.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 2a23966e-cff2-4a2c-90a7-7b59d999c83d
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2a23966e-cff2-4a2c-90a7-7b59d999c83d
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Multiple Integrals in Julia using HCubature.ipynb
+[NotebookApp | INFO] Starting buffering for 2a23966e-cff2-4a2c-90a7-7b59d999c83d:B279472F91E04C518EFE603A7743EBE1
+[NotebookApp | INFO] Kernel shutdown: 2a23966e-cff2-4a2c-90a7-7b59d999c83d
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 87.44ms referer=http://localhost:8888/notebooks/CSM/MacLaurin_Series.ipynb
+[NotebookApp | INFO] Kernel started: 99dfdf5b-6a24-437b-bf2e-853ea01c5f49
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 3.44ms referer=http://localhost:8888/notebooks/CSM/MacLaurin_Series.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 43.68ms referer=http://localhost:8888/notebooks/CSM/MacLaurin_Series.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 2.49ms referer=http://localhost:8888/notebooks/CSM/MacLaurin_Series.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1): No such file or directory: CSM/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1) 2.84ms referer=http://localhost:8888/notebooks/CSM/MacLaurin_Series.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 99dfdf5b-6a24-437b-bf2e-853ea01c5f49
+[NotebookApp | INFO] Saving file at /CSM/MacLaurin_Series.ipynb
+[NotebookApp | INFO] Starting buffering for 99dfdf5b-6a24-437b-bf2e-853ea01c5f49:E12A31532F264183AA25CA7E5A1DB968
+[NotebookApp | INFO] Kernel shutdown: 99dfdf5b-6a24-437b-bf2e-853ea01c5f49
+[NotebookApp | INFO] Kernel started: 9ecbc8d5-c866-486a-a65a-fbd9a3b32b15
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171119133130 (::1) 4.93ms referer=http://localhost:8888/notebooks/CSM/Math252/Taylor%20and%20MacLaurin%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.04ms referer=http://localhost:8888/notebooks/CSM/Math252/Taylor%20and%20MacLaurin%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171119133130 (::1) 4.31ms referer=http://localhost:8888/notebooks/CSM/Math252/Taylor%20and%20MacLaurin%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171119133130 (::1) 3.49ms referer=http://localhost:8888/notebooks/CSM/Math252/Taylor%20and%20MacLaurin%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math252/biblio.bib (::1): No such file or directory: CSM/Math252/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math252/biblio.bib (::1) 4.02ms referer=http://localhost:8888/notebooks/CSM/Math252/Taylor%20and%20MacLaurin%20Series.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9ecbc8d5-c866-486a-a65a-fbd9a3b32b15
+[NotebookApp | INFO] Saving file at /CSM/Math252/Taylor and MacLaurin Series.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Taylor and MacLaurin Series.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Taylor and MacLaurin Series.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Taylor and MacLaurin Series.ipynb
+[NotebookApp | INFO] Starting buffering for 9ecbc8d5-c866-486a-a65a-fbd9a3b32b15:1ED4FB5CDDF6471ABE3A2798A60F556A
+[NotebookApp | INFO] Kernel shutdown: 9ecbc8d5-c866-486a-a65a-fbd9a3b32b15
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=019280a557661372c16f1149a6e73098bde3ba3a4ea14d6b
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=019280a557661372c16f1149a6e73098bde3ba3a4ea14d6b
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] Creating new notebook in /CSM/Math252
+[NotebookApp | INFO] Kernel started: eeef0d1f-f37e-445d-9536-8ba1d1713f72
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171120123854 (::1) 150.01ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 3.97ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171120123854 (::1) 4.08ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171120123854 (::1) 4.50ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math252/biblio.bib (::1): No such file or directory: CSM/Math252/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math252/biblio.bib (::1) 5.06ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel eeef0d1f-f37e-445d-9536-8ba1d1713f72
+[NotebookApp | INFO] Saving file at /CSM/Math252/Bokeh Plotting Library.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Bokeh Plotting Library.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Bokeh Plotting Library.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Bokeh Plotting Library.ipynb
+[NotebookApp | INFO] Starting buffering for eeef0d1f-f37e-445d-9536-8ba1d1713f72:7309F099223940E786D3E2ABEADF1CDA
+[NotebookApp | INFO] Kernel shutdown: eeef0d1f-f37e-445d-9536-8ba1d1713f72
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171120123854 (::1) 4.45ms referer=http://localhost:8888/notebooks/CSM/Widgets.ipynb
+[NotebookApp | INFO] Kernel started: 0e396256-e7e1-43ae-9e0c-226deb5fa832
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 2.92ms referer=http://localhost:8888/notebooks/CSM/Widgets.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171120123854 (::1) 2.85ms referer=http://localhost:8888/notebooks/CSM/Widgets.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171120123854 (::1) 2.78ms referer=http://localhost:8888/notebooks/CSM/Widgets.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1): No such file or directory: CSM/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1) 3.25ms referer=http://localhost:8888/notebooks/CSM/Widgets.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 0e396256-e7e1-43ae-9e0c-226deb5fa832
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 0e396256-e7e1-43ae-9e0c-226deb5fa832
+[NotebookApp | INFO] Saving file at /CSM/Widgets.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Widgets.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Widgets.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Widgets.ipynb
+[NotebookApp | INFO] Starting buffering for 0e396256-e7e1-43ae-9e0c-226deb5fa832:25625BDD2AD7412C885A4FBF6DFA7508
+[NotebookApp | INFO] Kernel shutdown: 0e396256-e7e1-43ae-9e0c-226deb5fa832
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171120123854 (::1) 10.50ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Kernel started: 727165ac-eca0-44ba-97cd-32c10f82b93e
+[NotebookApp | WARNING] 404 GET /static/components/codemirror/mode/jldoctest/jldoctest.js?v=20171120123854 (::1) 4.20ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 3.27ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171120123854 (::1) 3.59ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171120123854 (::1) 2.62ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 14.82ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 727165ac-eca0-44ba-97cd-32c10f82b93e
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 727165ac-eca0-44ba-97cd-32c10f82b93e
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Starting buffering for 727165ac-eca0-44ba-97cd-32c10f82b93e:3874CD83D571441BA0CB33A0F09526CE
+[NotebookApp | INFO] Kernel shutdown: 727165ac-eca0-44ba-97cd-32c10f82b93e
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=4775fa9e462ba105355678fb4db4f8534b3c8bf953b6dbbc
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=4775fa9e462ba105355678fb4db4f8534b3c8bf953b6dbbc
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] Kernel started: 2bd815e8-309c-442c-9736-be9e5e156eab
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171120131841 (::1) 1085.50ms referer=http://localhost:8888/notebooks/Julia/Interact%20with%20Julia.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171120131841 (::1) 103.16ms referer=http://localhost:8888/notebooks/Julia/Interact%20with%20Julia.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 94.99ms referer=http://localhost:8888/notebooks/Julia/Interact%20with%20Julia.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 140.83ms referer=http://localhost:8888/notebooks/Julia/Interact%20with%20Julia.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 2bd815e8-309c-442c-9736-be9e5e156eab
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2bd815e8-309c-442c-9736-be9e5e156eab
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Kernel interrupted: 2bd815e8-309c-442c-9736-be9e5e156eab
+[NotebookApp | INFO] Starting buffering for 2bd815e8-309c-442c-9736-be9e5e156eab:A9FC6E731A7B44098D09E7933B8F2B99
+[NotebookApp | INFO] Kernel restarted: 2bd815e8-309c-442c-9736-be9e5e156eab
+[NotebookApp | INFO] Restoring connection for 2bd815e8-309c-442c-9736-be9e5e156eab:A9FC6E731A7B44098D09E7933B8F2B99
+[NotebookApp | INFO] Replaying 2 buffered messages
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511212786364 (::1) 56.68ms referer=http://localhost:8888/notebooks/Julia/Interact%20with%20Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Interact with Julia.ipynb
+[NotebookApp | INFO] Starting buffering for 2bd815e8-309c-442c-9736-be9e5e156eab:A9FC6E731A7B44098D09E7933B8F2B99
+[NotebookApp | INFO] Kernel shutdown: 2bd815e8-309c-442c-9736-be9e5e156eab
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171120131841 (::1) 95.78ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171120131841 (::1) 37.97ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.48ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.5/Plots/deps/plotly-latest.min.js?_=1511277429001 (::1) 2.33ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | INFO] Kernel started: 46cd3a8a-9212-4827-aec2-3d098cdcad74
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 82.98ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 46cd3a8a-9212-4827-aec2-3d098cdcad74
+[NotebookApp | INFO] Saving file at /Julia/Double Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.5/Plots/deps/plotly-latest.min.js?_=1511277429004 (::1) 2.16ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Double Integrals.ipynb
+[NotebookApp | INFO] Starting buffering for 46cd3a8a-9212-4827-aec2-3d098cdcad74:CCF17DB912484127858500E6E9B73206
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171120131841 (::1) 5.06ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171120131841 (::1) 3.86ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.08ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171120131841 (::1) 4.57ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 3.35ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.5/Plots/deps/plotly-latest.min.js?_=1511277878588 (::1) 2.22ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 46cd3a8a-9212-4827-aec2-3d098cdcad74
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.5/Plots/deps/plotly-latest.min.js?_=1511277878590 (::1) 2.32ms referer=http://localhost:8888/notebooks/Julia/Double%20Integrals.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Double Integrals.ipynb
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=bf15dd0a0fde76a6d2ac0f309928896bb413c081f2a025b3
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=bf15dd0a0fde76a6d2ac0f309928896bb413c081f2a025b3
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171125192535 (::1) 91.14ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Kernel started: 2f0b4841-73d5-4b49-9b68-b989f7d7e2f5
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 60.78ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171125192535 (::1) 9.45ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171125192535 (::1) 4.74ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.93ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 14.89ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 2f0b4841-73d5-4b49-9b68-b989f7d7e2f5
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2f0b4841-73d5-4b49-9b68-b989f7d7e2f5
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171125192535 (::1) 61.53ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: f8b06dd1-6115-4335-94c5-c6bd357ecfee
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 2.56ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171125192535 (::1) 27.08ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171125192535 (::1) 21.36ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 26.87ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from f8b06dd1-6115-4335-94c5-c6bd357ecfee
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel f8b06dd1-6115-4335-94c5-c6bd357ecfee
+[NotebookApp | INFO] Saving file at /Julia/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for f8b06dd1-6115-4335-94c5-c6bd357ecfee:A522A85E08264B588D4AF0213A9530EE
+[NotebookApp | INFO] Kernel shutdown: f8b06dd1-6115-4335-94c5-c6bd357ecfee
+[NotebookApp | INFO] Creating new notebook in /Julia
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171125192535 (::1) 4.90ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb?kernel_name=julia-0.6
+[NotebookApp | INFO] Kernel started: e044a705-1974-4b04-87e8-f4c562e46658
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 6.06ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171125192535 (::1) 5.00ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171125192535 (::1) 4.29ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.05ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from e044a705-1974-4b04-87e8-f4c562e46658
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel e044a705-1974-4b04-87e8-f4c562e46658
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171125192535 (::1) 82.18ms referer=http://localhost:8888/notebooks/CSM/Scratch%20Pad.ipynb
+[NotebookApp | INFO] Kernel started: c94f5d72-afde-489d-8e32-cae01a0457ba
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.27ms referer=http://localhost:8888/notebooks/CSM/Scratch%20Pad.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171125192535 (::1) 31.26ms referer=http://localhost:8888/notebooks/CSM/Scratch%20Pad.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171125192535 (::1) 2.61ms referer=http://localhost:8888/notebooks/CSM/Scratch%20Pad.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1): No such file or directory: CSM/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/biblio.bib (::1) 2.84ms referer=http://localhost:8888/notebooks/CSM/Scratch%20Pad.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from c94f5d72-afde-489d-8e32-cae01a0457ba
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel c94f5d72-afde-489d-8e32-cae01a0457ba
+[NotebookApp | INFO] Saving file at /CSM/Scratch Pad.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Scratch Pad.ipynb
+[NotebookApp | INFO] Starting buffering for c94f5d72-afde-489d-8e32-cae01a0457ba:0A40FEC5FE9547BB80E77CF6BDDBBCBF
+[NotebookApp | INFO] Kernel shutdown: c94f5d72-afde-489d-8e32-cae01a0457ba
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511666899494 (::1) 143.59ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511666899495 (::1) 2.38ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511666899497 (::1) 2.47ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511666899498 (::1) 2.17ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511666899501 (::1) 2.25ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Starting buffering for 2f0b4841-73d5-4b49-9b68-b989f7d7e2f5:4332304682574D7F8197E9DCD51D1E47
+[NotebookApp | INFO] Kernel shutdown: 2f0b4841-73d5-4b49-9b68-b989f7d7e2f5
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Starting buffering for e044a705-1974-4b04-87e8-f4c562e46658:35BECCCA6C9446C3B7288817A9216A29
+[NotebookApp | INFO] Kernel shutdown: e044a705-1974-4b04-87e8-f4c562e46658
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=33c871c327951658d9571256e3fef8cf384785e364bfcbdd
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=33c871c327951658d9571256e3fef8cf384785e364bfcbdd
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 150.29ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918588 (::1) 2.22ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Kernel started: c941ee45-a447-4317-a9dc-1dfae0cfe259
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 59.92ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 22.40ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 68.93ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.19ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 2.46ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel c941ee45-a447-4317-a9dc-1dfae0cfe259
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918592 (::1) 40.98ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 96.47ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: e406478c-e42f-452e-835a-18cb68e976dc
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 6.55ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 3.10ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 3.16ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 76.90ms referer=http://localhost:8888/notebooks/Julia/Untitled.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel e406478c-e42f-452e-835a-18cb68e976dc
+[NotebookApp | INFO] Saving file at /Julia/ArcLength Function.ipynb
+[NotebookApp | INFO] Starting buffering for e406478c-e42f-452e-835a-18cb68e976dc:4EB4A823EF1A465D92EEA7C79C9B69AD
+[NotebookApp | INFO] Kernel shutdown: e406478c-e42f-452e-835a-18cb68e976dc
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 6.76ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Kernel started: 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.82ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 4.76ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 4.11ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 3.56ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 43.06ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Kernel interrupted: c941ee45-a447-4317-a9dc-1dfae0cfe259
+[NotebookApp | INFO] Starting buffering for c941ee45-a447-4317-a9dc-1dfae0cfe259:EE9B4B2927A04D1180B12975B7613E03
+[NotebookApp | INFO] Kernel restarted: c941ee45-a447-4317-a9dc-1dfae0cfe259
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel c941ee45-a447-4317-a9dc-1dfae0cfe259
+[NotebookApp | INFO] Restoring connection for c941ee45-a447-4317-a9dc-1dfae0cfe259:EE9B4B2927A04D1180B12975B7613E03
+[NotebookApp | INFO] Replaying 2 buffered messages
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918629 (::1) 128.51ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918645 (::1) 58.79ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918646 (::1) 2.14ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918647 (::1) 3.12ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918650 (::1) 2.44ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918654 (::1) 2.56ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Starting buffering for 63b9024d-7b23-413f-a755-a8d8ed680222:5A7038D75CAE40819FA18D06166466EB
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 80.87ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918661 (::1) 2.63ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918664 (::1) 13.25ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918665 (::1) 2.15ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Starting buffering for c941ee45-a447-4317-a9dc-1dfae0cfe259:EE9B4B2927A04D1180B12975B7613E03
+[NotebookApp | INFO] Kernel shutdown: c941ee45-a447-4317-a9dc-1dfae0cfe259
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/kernelmanager.py", line 264, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/kernelmanager.py", line 343, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: c941ee45-a447-4317-a9dc-1dfae0cfe259)
+[NotebookApp | ERROR] {
+      "Connection": "keep-alive",
+      "X-Xsrftoken": "2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Content-Length": "0",
+      "Cookie": "_xsrf=2|b873ad50|3fa47a1008c3f737847172b86045bb0a|1509980577; username-localhost-8888=\"2|1:0|10:1511973859|23:username-localhost-8888|44:MGQyYjI0YzdmMjdkNDg5OGE2ZDU4ZTUxYjQwZjI2ZDY=|92748d24b251f53914c5167fb729d6068d0d4e7228e9b1e3a01a8307cf15b835\"",
+      "X-Requested-With": "XMLHttpRequest",
+      "Host": "localhost:8888",
+      "Origin": "http://localhost:8888",
+      "Referer": "http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/c941ee45-a447-4317-a9dc-1dfae0cfe259/restart (::1) 634.89ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 DELETE /api/sessions/07bff808-0ca8-4152-9b18-fa0a444632e6 (::1): Session not found: session_id='07bff808-0ca8-4152-9b18-fa0a444632e6'
+[NotebookApp | WARNING] Session not found: session_id='07bff808-0ca8-4152-9b18-fa0a444632e6'
+[NotebookApp | WARNING] 404 DELETE /api/sessions/07bff808-0ca8-4152-9b18-fa0a444632e6 (::1) 40.18ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Kernel started: a0417dda-c427-4079-8dac-06ebc594fbb6
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a0417dda-c427-4079-8dac-06ebc594fbb6
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918669 (::1) 28.59ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918670 (::1) 2.28ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918672 (::1) 4.10ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918673 (::1) 2.14ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918674 (::1) 2.18ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918690 (::1) 77.45ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918692 (::1) 2.25ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918694 (::1) 2.36ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918696 (::1) 2.29ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918697 (::1) 2.13ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918698 (::1) 2.17ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918699 (::1) 2.20ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918703 (::1) 8.87ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1511973918704 (::1) 2.15ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | INFO] Starting buffering for a0417dda-c427-4079-8dac-06ebc594fbb6:EE9B4B2927A04D1180B12975B7613E03
+[NotebookApp | INFO] Starting buffering for 63b9024d-7b23-413f-a755-a8d8ed680222:520D97098EF8435D9EC7274B5AABC769
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 47.74ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 4.07ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 7.07ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 3.46ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a0417dda-c427-4079-8dac-06ebc594fbb6
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 23.90ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 3.15ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512163687647 (::1) 2.32ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512163687648 (::1) 2.30ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512163687649 (::1) 2.27ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512163687650 (::1) 2.16ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512163687651 (::1) 2.12ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Starting buffering for a0417dda-c427-4079-8dac-06ebc594fbb6:BFB88FE7B1A446168A273D1015F30BBD
+[NotebookApp | INFO] Starting buffering for 63b9024d-7b23-413f-a755-a8d8ed680222:7D42865126C948E887893FACE17CADB8
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 22.51ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 5.17ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 77.67ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 5.08ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 38.23ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a0417dda-c427-4079-8dac-06ebc594fbb6
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.13ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.62ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 7.01ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 3.81ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 3.73ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 2.18ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 3.94ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164497729 (::1) 2.38ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164497732 (::1) 2.18ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164497733 (::1) 26.43ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164497734 (::1) 2.23ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Starting buffering for a0417dda-c427-4079-8dac-06ebc594fbb6:69253F15CF35482B92D222DF635D2DDD
+[NotebookApp | INFO] Starting buffering for 63b9024d-7b23-413f-a755-a8d8ed680222:C87E9775371F448A9709B0FB976091A6
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 30.01ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 21.37ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.50ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 4.32ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 57.19ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a0417dda-c427-4079-8dac-06ebc594fbb6
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.12ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 4.08ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 4.60ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 14.15ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 12.26ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 2.70ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164909978 (::1) 2.79ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164909979 (::1) 2.52ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512164909980 (::1) 2.63ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Starting buffering for a0417dda-c427-4079-8dac-06ebc594fbb6:F4B3EDD192E94F5EBFE8BBEC7CD0E1D3
+[NotebookApp | INFO] Starting buffering for 63b9024d-7b23-413f-a755-a8d8ed680222:F48B4B2FF4894CD88410E10061489710
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 8.91ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 63b9024d-7b23-413f-a755-a8d8ed680222
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171129084338 (::1) 11.14ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 31.77ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 4.61ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 3.66ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 57.37ms referer=http://localhost:8888/notebooks/Julia/Untitled2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a0417dda-c427-4079-8dac-06ebc594fbb6
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.05ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171129084338 (::1) 2.65ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171129084338 (::1) 5.78ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 3.25ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 2.29ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled2.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /Users/gary/.julia/v0.6/Plots/deps/plotly-latest.min.js?_=1512165028554 (::1) 673.11ms referer=http://localhost:8888/notebooks/Julia/Projection%20of%20a%20vector%20onto%20a%20subspace.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Projection of a vector onto a subspace.ipynb
+[NotebookApp | WARNING] Notebook Julia/Projection of a vector onto a subspace.ipynb is not trusted
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] ✓ nbpresent HTML export ENABLED
+[NotebookApp | WARNING] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gary/Documents/Jupyter_Notebooks
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=b55c4643d28dc3278669b33fb92c87572dccc2cdfb03f49c
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b55c4643d28dc3278669b33fb92c87572dccc2cdfb03f49c
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 85.88ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 1f817026-c76f-487c-990a-7cf4cc214577
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.56ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171206081739 (::1) 4.19ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 4.41ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math253/biblio.bib (::1): No such file or directory: CSM/Math253/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math253/biblio.bib (::1) 3.75ms referer=http://localhost:8888/notebooks/CSM/Math253/Untitled.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f817026-c76f-487c-990a-7cf4cc214577
+[NotebookApp | INFO] Starting buffering for 1f817026-c76f-487c-990a-7cf4cc214577:7546A1F86B14447B86E2A72F35F4D287
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 5.23ms referer=http://localhost:8888/notebooks/Julia/An%20Interesting%20Series.ipynb
+[NotebookApp | INFO] Kernel started: a4c1be83-2c14-4483-ab69-d757556ca0ca
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 8.08ms referer=http://localhost:8888/notebooks/Julia/An%20Interesting%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171206081739 (::1) 45.40ms referer=http://localhost:8888/notebooks/Julia/An%20Interesting%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 2.70ms referer=http://localhost:8888/notebooks/Julia/An%20Interesting%20Series.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 3.85ms referer=http://localhost:8888/notebooks/Julia/An%20Interesting%20Series.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a4c1be83-2c14-4483-ab69-d757556ca0ca
+[NotebookApp | INFO] Saving file at /Julia/An Interesting Series.ipynb
+[NotebookApp | INFO] Saving file at /Julia/An Interesting Series.ipynb
+[NotebookApp | INFO] Starting buffering for a4c1be83-2c14-4483-ab69-d757556ca0ca:85AE665B4454437B898B8B439DA8A17A
+[NotebookApp | INFO] Kernel shutdown: a4c1be83-2c14-4483-ab69-d757556ca0ca
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 203.95ms referer=http://localhost:8888/notebooks/Julia/Untitled1.ipynb
+[NotebookApp | INFO] Kernel started: bcc97d71-96f5-444b-b906-2bd4cbe52612
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.23ms referer=http://localhost:8888/notebooks/Julia/Untitled1.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171206081739 (::1) 77.70ms referer=http://localhost:8888/notebooks/Julia/Untitled1.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 63.45ms referer=http://localhost:8888/notebooks/Julia/Untitled1.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1): No such file or directory: Julia/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Julia/biblio.bib (::1) 4.49ms referer=http://localhost:8888/notebooks/Julia/Untitled1.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from bcc97d71-96f5-444b-b906-2bd4cbe52612
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel bcc97d71-96f5-444b-b906-2bd4cbe52612
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Saving file at /Julia/Untitled1.ipynb
+[NotebookApp | INFO] Starting buffering for bcc97d71-96f5-444b-b906-2bd4cbe52612:C54BB9ECDB8849F084676ECF9DB151FC
+[NotebookApp | INFO] Kernel shutdown: bcc97d71-96f5-444b-b906-2bd4cbe52612
+[NotebookApp | INFO] Creating new file in 
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Creating new notebook in 
+[NotebookApp | INFO] Kernel started: 490b837b-4349-4ebf-b53b-f37917642f8f
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 241.04ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 3.35ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 3.30ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /notebooks/biblio.bib (::1): No such file or directory: biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/biblio.bib (::1) 66.63ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 490b837b-4349-4ebf-b53b-f37917642f8f
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 490b837b-4349-4ebf-b53b-f37917642f8f
+[NotebookApp | INFO] Saving file at /Untitled.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | WARNING] 404 GET /get (::1) 44.51ms referer=None
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | WARNING] 404 GET /get (::1) 2.45ms referer=None
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | WARNING] 404 GET /get (::1) 2.64ms referer=None
+[NotebookApp | WARNING] 404 GET /get (::1) 2.55ms referer=None
+[NotebookApp | WARNING] 404 GET /get (::1) 3.75ms referer=None
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | WARNING] 404 GET /get (::1) 2.46ms referer=None
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Saving file at /sample_ext.py
+[NotebookApp | INFO] Saving file at /IPython Cell Magics.ipynb
+[NotebookApp | INFO] Starting buffering for 490b837b-4349-4ebf-b53b-f37917642f8f:070D5473375640CF8A8AE57D6465286F
+[NotebookApp | INFO] Kernel shutdown: 490b837b-4349-4ebf-b53b-f37917642f8f
+[NotebookApp | INFO] Creating new notebook in 
+[NotebookApp | INFO] Kernel started: 31bd95c9-4667-4419-9fa7-be2de62fc7dd
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 171.81ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171206081739 (::1) 40.20ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 5.34ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 36.78ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /notebooks/biblio.bib (::1): No such file or directory: biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/biblio.bib (::1) 4.22ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 31bd95c9-4667-4419-9fa7-be2de62fc7dd
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 31bd95c9-4667-4419-9fa7-be2de62fc7dd
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Validating '/Users/gary/Documents/Jupyter_Notebooks/Sample Slide Show.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 189.02ms referer=http://localhost:8888/notebooks/Sample%20Slide%20Show.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.32ms referer=http://localhost:8888/notebooks/Sample%20Slide%20Show.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.13ms referer=http://localhost:8888/notebooks/Sample%20Slide%20Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Creating new notebook in /CSM/Math252
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 53.25ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Kernel started: 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171206081739 (::1) 69.71ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 10.14ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 77.93ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math252/biblio.bib (::1): No such file or directory: CSM/Math252/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/CSM/Math252/biblio.bib (::1) 131.65ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Creating new directory in 
+[NotebookApp | INFO] Creating new notebook in /Linear Algebra
+[NotebookApp | WARNING] 404 GET /nbextensions/calico-spell-check.js?v=20171206081739 (::1) 276.17ms referer=http://localhost:8888/notebooks/Linear%20Algebra/Untitled.ipynb?kernel_name=julia-0.6
+[NotebookApp | INFO] Kernel started: cb6271ef-3574-4d90-8503-7ef504a6f76a
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 4.00ms referer=http://localhost:8888/notebooks/Linear%20Algebra/Untitled.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20171206081739 (::1) 3.97ms referer=http://localhost:8888/notebooks/Linear%20Algebra/Untitled.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] 404 GET /notebooks/Linear%20Algebra/biblio.bib (::1): No such file or directory: Linear Algebra/biblio.bib
+[NotebookApp | WARNING] 404 GET /notebooks/Linear%20Algebra/biblio.bib (::1) 77.57ms referer=http://localhost:8888/notebooks/Linear%20Algebra/Untitled.ipynb?kernel_name=julia-0.6
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from cb6271ef-3574-4d90-8503-7ef504a6f76a
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel cb6271ef-3574-4d90-8503-7ef504a6f76a
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | WARNING] WebSocket ping timeout after 19080097 ms.
+[NotebookApp | INFO] Starting buffering for 16a7583d-b4ce-4c33-9cfc-398beee32bdf:70E0554B9D3A44359CA752BF54C066F6
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Kernel restarted: 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | INFO] Kernel restarted: 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | INFO] Discarding 3 buffered messages for 16a7583d-b4ce-4c33-9cfc-398beee32bdf:70E0554B9D3A44359CA752BF54C066F6
+[NotebookApp | INFO] Kernel shutdown: 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | WARNING] Timeout waiting for kernel_info_reply: 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+        value = future.result()
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+        raise_exc_info(self._exc_info)
+      File "<string>", line 4, in raise_exc_info
+    tornado.gen.TimeoutError: Timeout waiting for restart
+[NotebookApp | ERROR] {
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Cookie": "_xsrf=2|7cd30bef|23e209949d470375ec4c3953829db36f|1512574973; username-localhost-8888=\"2|1:0|10:1512577085|23:username-localhost-8888|44:OWU0OTdlMDkyYmRkNDBlN2JjMWUwZTE4YTQ3YjlkM2I=|ffcf190fab5efc1d5df34fec35d51c1188bdd886dedb43499e03a8fad6e83b7b\"",
+      "Connection": "keep-alive",
+      "X-Xsrftoken": "2|7cd30bef|23e209949d470375ec4c3953829db36f|1512574973",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Host": "localhost:8888",
+      "Referer": "http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/16a7583d-b4ce-4c33-9cfc-398beee32bdf/restart (::1) 37869.44ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 DELETE /api/sessions/41d9bce1-b288-47fc-b302-b32404afe8ee (::1): Session not found: session_id='41d9bce1-b288-47fc-b302-b32404afe8ee'
+[NotebookApp | WARNING] Session not found: session_id='41d9bce1-b288-47fc-b302-b32404afe8ee'
+[NotebookApp | WARNING] 404 DELETE /api/sessions/41d9bce1-b288-47fc-b302-b32404afe8ee (::1) 358.80ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Kernel started: a935e234-26a8-45ea-ab90-1ecf668de22d
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/kernelmanager.py", line 264, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/kernelmanager.py", line 343, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 16a7583d-b4ce-4c33-9cfc-398beee32bdf)
+[NotebookApp | ERROR] {
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Cookie": "_xsrf=2|7cd30bef|23e209949d470375ec4c3953829db36f|1512574973; username-localhost-8888=\"2|1:0|10:1512577085|23:username-localhost-8888|44:OWU0OTdlMDkyYmRkNDBlN2JjMWUwZTE4YTQ3YjlkM2I=|ffcf190fab5efc1d5df34fec35d51c1188bdd886dedb43499e03a8fad6e83b7b\"",
+      "Connection": "keep-alive",
+      "X-Xsrftoken": "2|7cd30bef|23e209949d470375ec4c3953829db36f|1512574973",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Host": "localhost:8888",
+      "Referer": "http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/16a7583d-b4ce-4c33-9cfc-398beee32bdf/restart (::1) 463.71ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info_reply: 16a7583d-b4ce-4c33-9cfc-398beee32bdf
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+        value = future.result()
+      File "/Users/gary/anaconda/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+        raise_exc_info(self._exc_info)
+      File "<string>", line 4, in raise_exc_info
+    tornado.gen.TimeoutError: Timeout waiting for restart
+[NotebookApp | ERROR] {
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Cookie": "_xsrf=2|7cd30bef|23e209949d470375ec4c3953829db36f|1512574973; username-localhost-8888=\"2|1:0|10:1512577085|23:username-localhost-8888|44:OWU0OTdlMDkyYmRkNDBlN2JjMWUwZTE4YTQ3YjlkM2I=|ffcf190fab5efc1d5df34fec35d51c1188bdd886dedb43499e03a8fad6e83b7b\"",
+      "Connection": "keep-alive",
+      "X-Xsrftoken": "2|7cd30bef|23e209949d470375ec4c3953829db36f|1512574973",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Host": "localhost:8888",
+      "Referer": "http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/16a7583d-b4ce-4c33-9cfc-398beee32bdf/restart (::1) 50686.40ms referer=http://localhost:8888/notebooks/CSM/Math252/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Kernel shutdown: a935e234-26a8-45ea-ab90-1ecf668de22d
+[NotebookApp | INFO] Kernel started: db80f549-b869-4001-9ded-eb889dc4a6f4
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from a935e234-26a8-45ea-ab90-1ecf668de22d
+[NotebookApp | ERROR] Error opening stream: HTTP 404: Not Found (Kernel does not exist: a935e234-26a8-45ea-ab90-1ecf668de22d)
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from db80f549-b869-4001-9ded-eb889dc4a6f4
+[NotebookApp | ERROR] Kernel info request failed, assuming current {'status': 'aborted'}
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /Sample Slide Show.ipynb
+[NotebookApp | INFO] Starting buffering for 31bd95c9-4667-4419-9fa7-be2de62fc7dd:BE7CBEDE94D54D8E842ED8C75B1FA497
+[NotebookApp | INFO] Kernel shutdown: 31bd95c9-4667-4419-9fa7-be2de62fc7dd
+[NotebookApp | INFO] Saving file at /CSM/Math252/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for db80f549-b869-4001-9ded-eb889dc4a6f4:70E0554B9D3A44359CA752BF54C066F6
+[NotebookApp | INFO] Kernel shutdown: db80f549-b869-4001-9ded-eb889dc4a6f4
+[NotebookApp | INFO] Saving file at /Linear Algebra/Introduction_to_Applied_Linear_Algebra.ipynb
+[NotebookApp | INFO] Starting buffering for cb6271ef-3574-4d90-8503-7ef504a6f76a:942B79AF78B34A1D888F2A21DB24590D
+[NotebookApp | INFO] Kernel shutdown: cb6271ef-3574-4d90-8503-7ef504a6f76a
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 1f817026-c76f-487c-990a-7cf4cc214577
